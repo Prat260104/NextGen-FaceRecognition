@@ -18,23 +18,6 @@ NextGen Face Recognition is a **real-time face recognition system** built with P
 
 ---
 
-##Folder Structure
-
-NextGen-FaceRecognition/
-├── dataset/                 # Folder containing images of each person
-│   ├── Person1/
-│   │   ├── 1.jpg
-│   │   ├── 2.jpg
-│   │   └── ...
-│   ├── Person2/
-│   │   ├── 1.jpg
-│   │   └── ...
-├── main.py                  # Main script for running real-time face recognition
-├── requirements.txt         # All required dependencies
-├── README.md                # This file
-└── .gitignore               # Ignored files (dataset, venv, etc.)
-
-
 ### 1. Clone the repository
 
 ```bash
