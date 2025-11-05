@@ -18,21 +18,21 @@ NextGen Face Recognition is a **real-time face recognition system** built with P
 
 ---
 
-
-
-## Folder Structure
+##Folder Structure
 
 NextGen-FaceRecognition/
-├── dataset/ # Folder containing images of each person
-│ ├── Person1/
-│ │ ├── 1.jpg
-│ │ ├── 2.jpg
-│ │ └── ...
-│ └── Person2/
-├── main.py # Main script for running real-time face recognition
-├── requirements.txt # All required dependencies
-├── README.md # This file
-└── .gitignore # Ignored files (dataset, venv, etc.)
+├── dataset/                 # Folder containing images of each person
+│   ├── Person1/
+│   │   ├── 1.jpg
+│   │   ├── 2.jpg
+│   │   └── ...
+│   ├── Person2/
+│   │   ├── 1.jpg
+│   │   └── ...
+├── main.py                  # Main script for running real-time face recognition
+├── requirements.txt         # All required dependencies
+├── README.md                # This file
+└── .gitignore               # Ignored files (dataset, venv, etc.)
 
 
 ### 1. Clone the repository
@@ -43,14 +43,16 @@ cd NextGen-FaceRecognition
 ```
 
 2. Create a virtual environment (recommended)
-# Mac/Linux
+
 ```bash
+# Mac/Linux
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-# Windows
+
 ```bash
+# Windows
 python -m venv venv
 venv\Scripts\activate
 ```
@@ -61,21 +63,9 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-4. Prepare the dataset
-
-Create a folder named dataset in the project root.
-
-Structure:
-
-dataset/
-   Person1/
-      img1.jpg
-      img2.jpg
-   Person2/
-      img1.jpg
 
 
-5. Run the face recognition
+4. Run the face recognition
 ```bash
 # Make sure your virtual environment is activated
 python main.py
